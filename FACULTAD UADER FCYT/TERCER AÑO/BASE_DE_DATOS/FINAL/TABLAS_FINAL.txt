@@ -1,0 +1,29 @@
+Pais (id_pais(PK), nombre)
+
+Provincia (id_provincia(PK), nombre, id_pais(FK))
+
+Ciudad (id_ciudad(PK), nombre, id_provincia(FK))
+
+Genero (id_genero(PK), desc)
+
+Autor (id_autor(PK), nya)
+
+Estado (id_estado(PK), desc)
+
+Almacen (id_almacen(PK), nombre)
+
+Libro (ISBN(PK), titulo, id_autor(FK), id_genero(FK), anio)
+
+Cliente (id_cliente(PK), razón, CUIT, calle, altura, cod_ciudad(FK), telefono_fijo, contacto, celular)
+
+Hist_Precios (ISBN(PK)(FK), id_cambio(PK), fecha, precio)
+
+cliente_mail (id_cliente(PK)(FK), email(PK), tipo) (¡Corregido a doble PK!)
+
+Libro_Almacen (ISBN(PK)(FK), id_almacen(PK)(FK), cantidad)
+
+Pedido (nro_pedido(PK), fecha, id_cliente(FK), id_estado(FK))
+
+Libro_Pedido (ISBN(PK)(FK), nro_pedido(PK)(FK), cantidad, preciounitario)
+
+Factura (id_factura(PK), tipo, letra, puntoventa, numero, fecha, nro_pedido(FK))

@@ -1,0 +1,8 @@
+Socio(id_socio(PK), nombre, DNI, calle, numero, piso, dpto, FechaIngreso)
+Embarcación(matricula(PK), nombre, dimensión, tipoembarcacion(FK), id_socio(FK), num_amarre(FK), fechadesde)
+Amarre(numero(pk), LecturaAgua, LecturaLuz, Mantenimiento, id_socio(FK), letra_zona(FK), fechadesde)
+TipoEmbarcación(codigo(PK), descripcion)
+Zona(letra(PK), profundidad, AnchoAmarres, tipoembarcacion(FK))
+Empleado(código(PK), nombre, telefono)
+Empleado_Zona(cod_emp(PK)(FK), letra_zona(PK)(FK), horario)
+Empleado_Amarre(cod_emp(PK)(FK), num_amarre(PK)(FK), horario)
