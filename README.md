@@ -1,2 +1,2 @@
-# QUERES APROBAR Y NECESITAS MATERIAL? PASA QUE TE AYUDO MAESTRO
-**Aca tenes toda la informacion que necesitas para ser un analista**
+# QUERES APROBAR Y NECESITAS AYUDA? PASA QUE TE AYUDO MAESTRO
+**Aca tenes toda la info rica bien fresca como una mantequita**
